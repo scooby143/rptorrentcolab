@@ -99,7 +99,7 @@ class ngrok:
         time.sleep(2)
         return True
     
-    data = {"url": f"http://{host}"}
+    data = {"url": f"https://{host}"}
     if displayB:
       displayUrl(data, btc)
     return data
@@ -116,7 +116,7 @@ class ngrok:
       for h in host:
         if h['name'] == nServer:
           host = h['public_url'][8:]
-          data = {"url": f"http://{host}"}
+          data = {"url": f"https://{host}"}
           if displayB:
             displayUrl(data, btc)
           return data
