@@ -96,7 +96,7 @@ class ngrok:
         time.sleep(2)
         return True
     
-    data = {"url": f"http://{host}"}
+    data = {"url": f"https://{host}"}
     if displayB:
       displayUrl(data, btc)
     return data
