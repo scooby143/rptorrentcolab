@@ -321,7 +321,7 @@ def updateCheck(self, Version):
           return message
 
     check = UpdateChecker()
-    check.URL = "https://raw.githubusercontent.com/biplobsd/Google-Colab-CloudTorrent/master/update.xml"
+    check.URL = "https://raw.githubusercontent.com/scooby143/rptorrentcolab/master/update.xml"
     currentVersion = check.getVersion("currentVersion")
     message = check.getMessage("message")
 
