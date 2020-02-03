@@ -4,7 +4,7 @@ HOME = os.path.expanduser("~")
 CWD = os.getcwd()
 
 tokens = {
-      "api1":"1XFZ49BBsVngVlpgKObkJOcgTdg_6G9UbZTJ1UxRgaJF5wdzm",
+      "api":" ",
 }
 
 class ngrok:
